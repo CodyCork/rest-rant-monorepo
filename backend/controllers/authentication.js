@@ -21,4 +21,6 @@ router.post("/", async (req, res) => {
   }
 });
 
+router.get("/profile", async (req, res) => {});
+
 module.exports = router;
